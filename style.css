@@ -1,0 +1,74 @@
+body {
+    font: 20px verdana sans-seriff;
+    background: linear-gradient(grey, black);
+    color: black;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background: linear-gradient(darkred, maroon);
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 100px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: aquamarine;
+
+}
+
+.header a:hover {
+    background-color: darkred;
+}
+
+.hero {
+    height: 500px;
+    background-image: url(Image1.jpeg);
+    background-size: cover;
+    background-position: 0;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: bold;
+    color: lightcyan;
+    padding: 30px;
+}
+
+.motto {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;
+    border: 5px solid black;
+
+}
+
+.footer {
+    background-color: maroon;
+    padding: 10px;
+
+}
+
+.footer .copy {
+    color: ghostwhite;
+    text-align: center;
+    font-size: 12px;
+}
